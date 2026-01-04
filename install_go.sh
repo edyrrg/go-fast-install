@@ -2,7 +2,6 @@
 
 # --- CONFIGURACION ---
 # Script de instalacion de Go.
-# Sobrescribe archivos corruptos y corrige permisos.
 
 # 1. EVITAR EJECUCION CON SUDO DIRECTO
 if [ "$EUID" -eq 0 ]; then
