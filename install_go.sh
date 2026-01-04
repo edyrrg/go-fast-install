@@ -106,6 +106,8 @@ fi
 
 echo "------------------------------------------------"
 echo "Instalacion finalizada."
+echo "Versión instalada: $(/usr/local/go/bin/go version)"
+echo ""
 echo "Para aplicar los cambios ejecuta:"
 echo "   source $SHELL_PROFILE"
 echo "   go version"
